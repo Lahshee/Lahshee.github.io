@@ -1,0 +1,97 @@
+header, nav, main, footer { display: block; }
+body { background-color: #330000;
+       font-family: Verdana, Arial, sans-serif;
+       background-image: url(../images/home.png);
+	   background-repeat: no-repeat;
+	   background-position: center 5px;
+}
+h1 { 
+	
+	 background-repeat: no-repeat;
+     height: 110px;
+     font-family: Papyrus, fantasy;
+     font-size: 5em;
+     padding-left: 220px;
+     padding-top: 20px;
+     text-shadow: 3px 3px 3px #90745D;
+     margin-bottom: 0;
+     color: purple;
+}
+h2 {font-family: Papyrus, fantasy;
+    color: purple;
+	font-size: 3em;
+} 
+h3 {font-family: Papyrus, fantasy;
+    color: purple;
+	font-size:30px;}
+h4 {font-family: Papyrus, fantasy;
+    color: purple;
+	font-size: 25px;} 
+li {font-family: Papyrus, fantasy;
+    color: gold;
+	font-size: 25px;}
+p {color: gold;}
+p2 {color: gold;
+font-size: 20px;}
+nav { padding-top: 10px;
+      float: left;
+      width: 200px; 
+}
+nav ul { list-style-type: none; 
+       padding-left: 20px;
+     }
+nav li { padding-bottom: 5px;
+       font-weight: bold;
+}
+nav a { text-decoration: none; }
+nav a:link { color: purple; }
+nav a:visited{ color: #90745D; }
+nav a:hover { color: #3F4632; }
+dt {color: gold;
+font-size: 20px;
+text-align: left;
+ margin-left: 20px;}
+dd {color: gold;
+font-size: 18px;
+text-align: left;
+ margin-left: 20px;}
+
+main { 
+       margin-left: 200px;
+       padding: 1px 20px 20px 20px;   
+       min-height: 300px;
+}
+main img { float: right;
+           padding: 20px;
+}
+
+footer {
+color: purple;
+         margin-left: -10px;
+         padding: 100px;
+         text-align: center;
+         font-size: small;
+         font-style: italic;
+}
+.right-middle {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  transform: translateY(-50%);
+}
+#specialImg {
+  position: absolute;
+  right: 0;
+  top: 75%;
+  transform: translateY(-50%);
+}
+#billy {
+  position: absolute;
+  right: 0%;
+  top: 80%;
+  transform: translateY(-50%);}
+#wanted {
+  position: absolute;
+  right: 75%;
+  top: 80%;
+  transform: translateY(-50%)}
